@@ -9,6 +9,7 @@ function isSortedAscendingInts(array $arr): void{
 
     if($len == 0){
         return;
+        
     }
 
     if(!is_int($arr[0])){
